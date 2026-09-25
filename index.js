@@ -10,7 +10,7 @@ const client = new Client({
 });
 
 const TOKEN = process.env.DISCORD_TOKEN;
-const CHANNEL_ID =  "https://discord.com/channels/1534480234349592597/1544756785460551680"; 
+const CHANNEL_ID = "1544756785460551680"; 
 const GUILD_ID = "1534480234349592597";
 
 client.once('ready', async () => {
